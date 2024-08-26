@@ -297,8 +297,8 @@ body{
 }
 
 .footer-links .footer-link{
-    width: 45px;
-    height: 45px;
+    min-width: 45px;
+    min-height: 45px;
     border: 2px solid var(--text-white);
     display: flex;
     align-items: center;
@@ -306,7 +306,7 @@ body{
     border-radius: 50%;
     transition: var(--scale-transition);
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .footer-link svg {
