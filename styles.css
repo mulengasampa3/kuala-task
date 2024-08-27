@@ -241,7 +241,7 @@ body{
 .count .card-preloader, 
 .count .actual-number{
     width: 160px;
-    min-height: 120px;
+    height: 120px;
     border-radius: 8px;
     background-color: var(--card-color2);
     position: absolute;
@@ -257,17 +257,22 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 60px;
     color: var(--text-white);
     font-weight: 900;
     text-align: center;
     line-height: 27px;
+    padding: 35px 0;
 }
 
 .actual-number svg {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     fill: var(--text-white);
+}
+
+.actual-number .failed{
+    font-size: 16px;
 }
 
 .footer{
